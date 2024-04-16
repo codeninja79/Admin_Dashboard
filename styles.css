@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(10, 5rem);
+    grid-template-rows: repeat(10, 5rem);
+    height: 100%;
+   
+}
+
+.header{
+    grid-row: 1 / 3 ;
+    grid-column: 5 / 22;
+    background-color: greenyellow;
+}
+
+.sidebar{
+    grid-row: 1 / 11;
+    grid-column: 1 / 5;
+    background-color: blueviolet;
+}
+
+.content{
+   grid-row: 3 / 11;
+   grid-column: 5 / 22;
+    background-color: tomato;
+}
+
+.section-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 3rem;
+}
+
+.section-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 3rem;
+    margin-top: 5rem;
+}
+
+.dashboard{
+    margin-left: 3rem;
+
+}
+
+.projects-grid{
+    display: grid;
+    grid-template-columns: repeat(50, 2rem);
+    grid-template-rows: repeat(20, 2rem);
+}
+
+.your-projects{
+    grid-row: 1 / 4;
+    grid-column: 2 / 8;
+}
+
+
+.projects-card-1{
+    grid-row: 3 / 9;
+    grid-column: 2 / 14;
+    padding: 3rem;
+    background-color: wheat;
+}
+
+.projects-card-2{
+    grid-row: 10 / 16;
+    grid-column: 2 / 14;
+    padding: 3rem;
+    background-color: wheat;
+}
+
+.projects-card-3{
+    grid-row: 3 / 9;
+    grid-column: 15 / 27;
+    padding: 3rem;
+    background-color: wheat;
+}
+
+.projects-card-4{
+    grid-row: 10 / 16;
+    grid-column: 15 / 27;
+    padding: 3rem;
+    background-color: wheat;
+}
+
+.projects-card-5{
+    grid-row: 10 / 16;
+    grid-column: 28 / 40;
+    pad: 3rem;
+    background-color: wheat;
+}
+
+.projects-card-6{
+    grid-row: 3 / 9;
+    grid-column: 28 / 40;
+    pad: 3rem;
+    background-color: wheat;
+}
+
+.announcements{
+    grid-row: 1 / 11;
+    grid-column: 43 / 48;
+}
+
+.announcement-card{
+    grid-row: 3 / 11;
+    grid-column: 43 / 50;
+    padding: 3rem;
+    background-color: wheat;
+}
+
+.trending{
+    grid-row: 11 / 20;
+    grid-column: 43 / 48;
+}
+
+.trending-card{
+    grid-row: 13 / 20;
+    grid-column: 43 / 50;
+    padding: 3rem;
+    background-color: wheat;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: repeat(50, 2rem);
+    grid-template-rows: repeat(5, 2rem);
+}
+
+.search-bar{
+    grid-row: 2 / 3;
+    grid-column: 4 / 26;
+}
+
+button{
+    background-color: blue;
+}
